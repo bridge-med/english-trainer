@@ -942,8 +942,10 @@ function renderHome(){
     <div class="hero-sub">日本語を見て、英語を思い浮かべて、答え合わせ。通勤の5分に入る。</div>
   </div>
 
+  <div class="section">${modeSelectorHtml()}</div>
+
   <div class="section">
-    <div class="section-label"><span class="n">Start a session</span><span class="bar"></span><span class="aside">${MODES[S.sessionMode]}</span></div>
+    <div class="section-label"><span class="n">Start a session</span><span class="bar"></span><span class="aside">${MODES[S.sessionMode]}モード</span></div>
     <div class="start-grid">
       <button class="start-card" onclick="startSession('word')">
         <span class="start-num num">01</span>
